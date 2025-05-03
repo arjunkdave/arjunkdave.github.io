@@ -1,91 +1,116 @@
-# 🎮 Capture Olin
+# 🎮 Capture Olin - Turn-Based Game
+
+This is a pygame implementation of a two-player turn-based strategy game using the Model-View-Controller (MVC) framework. The game is designed to be played on a single computer, with each player taking simultaneous turns to strategically move their units and control buildings across the Olin College campus map.
+
+---
 
 ## 🎯 Project Goal
 
-The goal of **Capture Olin** was to create a fun, well-scoped, and impressive two-player strategy game that would challenge us as developers without demanding an unreasonable workload. We aimed to produce something both technically sound and visually engaging — a game that not only worked well but was actually enjoyable to play and easy to demonstrate.
-
-Our project draws inspiration from classic “capture the flag” mechanics, but the true centerpiece is player-player interaction. We also used iMessage's "Penguin Game" as an inspiration. We prioritized strategy and calculated moves over randomness and luck.
+The goal of **Capture Olin** was to create a two-player strategy game that is well-structured, technically challenging, and visually engaging. It explores real-time decision-making and predictive gameplay mechanics, with a heavy focus on player-to-player interaction rather than random chance. We sought out to create a game that would have a unique strategy component.
 
 ---
 
 ## ✨ Unique Features
 
-- 🧠 **Strategic Turn-Based Gameplay**: Each decision counts — there is a unique strategy in this game.
-- 🎮 **Custom Input Controller**: Uses keyboard and trackpad/mouse for real-time input.
-- 🔁 **Model-View-Controller Architecture**: Clean separation of logic, visuals, and controls.
-- 🕹️ **Multi-Ending Logic**: Four possible game outcomes ensure replayability and fairness.
+- 🧠 **Simultaneous Turn-Based Gameplay**: Both players submit their moves, without knowing their opponent's move and then they are executed at the same time, requiring predictive strategy.
+- 🎮 **Custom Input Controller**: Combines mouse/trackpad and keyboard input for intuitive gameplay.
+- 🏛️ **Campus-Themed Map**: Nodes represent buildings on Olin’s campus, with connections based on real geography.
+- 🔁 **Model-View-Controller Architecture**: A clean separation of concerns for better scalability and testing.
 
 ---
 
-## 🖼️ Screenshots / Demos
+## Demos
 
-> Upload your screenshots to an `/images` folder and reference them like this:
+> 🎥 Watch a short video demo of the game:  
+[Capture Olin - Gameplay Demo](https://drive.google.com/file/d/1foizQ9pveL60IgcA24T1aSrCRpO4kmzs/view?usp=sharing)
+---
 
-![Home Screen](images/home_screen.png)  
-![In-Game View](images/gameplay.png)
+## ⚙️ Getting Started
 
-> You can also embed a video demo:
-[🎥 Watch the Gameplay Demo](https://link-to-demo.com)
+These instructions will get you up and running with a local version of the game.
+
+### Prerequisites
+
+- Python 3.12 or higher  
+- Pygame
+
+Install dependencies:
+
+```bash
+pip install pygame
+```
 
 ---
 
-## ⚙️ Installation Instructions
+## 🚀 Running the Game
 
-To run the game locally:
+To run the game:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/capture-olin.git
-   cd capture-olin
-   ```
-
-2. Install the dependencies:
-   ```bash
-   pip install pygame
-   ```
-
-3. Run the game:
-   ```bash
-   python main.py
-   ```
+```bash
+python3 Game.py
+```
 
 ---
 
-## 📦 Download
+## 🎮 Game Controls
 
-- [Download the latest release](https://github.com/yourusername/capture-olin/releases)
-- Or clone the source code directly via Git
+- Click to select which Olin building you want to send Oliners to/from.
+- Use number keys to select how many Oliners to send.
+- Press `Space` to confirm and send.
+- Press `Escape` to exit at any time.
+- Pass the device between players every turn.
+
+Instructions are also available on the game's start screen. 
 
 ---
+
+## 📜 Game Rules
+
+- The game map is a network of buildings (nodes) connected by pathways (edges).
+- Each building starts as neutral or controlled by one player.
+- Players simultaneously issue orders each round, and results resolve together.
+- You can only send Oliners between connected buildings.
+- Buildings spawn new Oliners at the start of each round:
+  - 🏠 Home base always spawns 5 Oliners.
+  - 🏢 Controlled buildings spawn bonus Oliners.
+- The player with the most Oliners in a building controls it.
+- If both players have equal Oliners, the building becomes or remains neutral.
+- 🎯 Win by controlling the most buildings at the 5-minute mark or capturing all buildings.
+
+---
+
+## 🧪 Running PyTests
+
+Run the tests with:
+
+```bash
+pytest
+```
+
+---
+
 
 ## 🔗 GitHub Page
 
-Explore the GitHub repo here:  
-[https://github.com/yourusername/capture-olin](https://github.com/yourusername/capture-olin)
+Visit the GitHub project here:  
+[https://github.com/olincollege/Turn-Based](https://github.com/olincollege/Turn-Based)
 
 ---
 
 ## 👥 About Us
 
-We’re a student team at Olin College of Engineering, building creative software that’s both fun and functional.  
-This project was part of our **Software Design (SoftDes)** course.
+Mateo -
+Liam -
+Arjun - Hey, I'm a Babson Student currently cross registered at Olin College. I'm studying real estate and finance with a passion for innovation. In my free time, I like to play soccer, make art, and explore Boston. Hope you enjoyed the game!
+
 
 ---
 
-## 💡 Key Learnings
+## Attribution
 
-- **🎯 Scope Management**: We had to cut some features to stay realistic and meet deadlines.
-- **🔀 Collaboration Challenges**: Merge conflicts taught us the importance of version control discipline.
-- **⏳ Time Management**: We underestimated the final week’s workload — a valuable lesson in consistent effort.
-
----
-
-## 🙏 Attribution
-
-- Built with [Python](https://www.python.org/) and [Pygame](https://www.pygame.org/news)
-- Fonts, icons, or design assets used are credited to their respective creators (insert links if applicable)
-- Special thanks to our SoftDes instructors and classmates for feedback throughout the process
+- Built using [Python](https://www.python.org/) and [Pygame](https://www.pygame.org/news)
+- Thanks to our instructors and peers for support and feedback throughout the project
 
 ---
 
-> 🧠 _“Capture Olin” isn't just a game — it’s a showcase of what a small, motivated team can build in a short time with the right structure and collaboration._
+
