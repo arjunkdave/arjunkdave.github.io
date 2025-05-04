@@ -14,7 +14,6 @@ The goal of **Capture Olin** was to create a two-player strategy game that is we
 
 - 🧠 **Simultaneous Turn-Based Gameplay**: Both players submit their moves, without knowing their opponent's move and then they are executed at the same time, requiring predictive strategy.
 - 🎮 **Custom Input Controller**: Combines mouse/trackpad and keyboard input for intuitive gameplay.
-- 🏛️ **Campus-Themed Map**: Nodes represent buildings on Olin’s campus, with connections based on real geography.
 - 🔁 **Model-View-Controller Architecture**: A clean separation of concerns for better scalability and testing.
 
 ---
@@ -45,6 +44,13 @@ pip install pygame
 ## 🚀 Running the Game
 
 To run the game:
+
+Navigate to repository here: https://github.com/olincollege/Turn-Based
+Clone the repository link into you terminal by doing this: git clone https://github.com/olincollege/Turn-Based
+Then, write python3 Game.py
+
+
+
 
 ```bash
 python3 Game.py
