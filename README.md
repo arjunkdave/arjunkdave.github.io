@@ -51,6 +51,7 @@ Clone the repository link into you terminal by doing this:
 ```bash
 git clone https://github.com/olincollege/Turn-Based
 ```
+Then run the game:
 
 ```bash
 python3 Game.py
