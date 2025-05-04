@@ -100,7 +100,7 @@ Visit the GitHub project here:
 ## 👥 About Us
 
 Mateo -
-Liam -
+Liam - I'm an Olin student studying engineering with robotics, with a specific interest in math and computation. I'm passionate about music, fire arts and teaching. I really hope you like the game!
 Arjun - Hey, I'm a Babson Student currently cross registered at Olin College. I'm studying real estate and finance with a passion for innovation. In my free time, I like to play soccer, make art, and explore Boston. Hope you enjoyed the game!
 
 
@@ -112,5 +112,3 @@ Arjun - Hey, I'm a Babson Student currently cross registered at Olin College. I'
 - Thanks to our instructors and peers for support and feedback throughout the project
 
 ---
-
-
