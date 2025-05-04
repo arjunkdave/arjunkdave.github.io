@@ -46,11 +46,11 @@ pip install pygame
 To run the game:
 
 Navigate to repository here: https://github.com/olincollege/Turn-Based
-Clone the repository link into you terminal by doing this: git clone https://github.com/olincollege/Turn-Based
-Then, write python3 Game.py
+Clone the repository link into you terminal by doing this: 
 
-
-
+```bash
+git clone https://github.com/olincollege/Turn-Based
+```
 
 ```bash
 python3 Game.py
