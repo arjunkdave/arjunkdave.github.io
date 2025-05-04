@@ -101,7 +101,7 @@ Visit the GitHub project here:
 
 - Mateo - Hi, I'm Mateo! I'm a student at Olin College majoring in mechanical engineering. My professional passions span aerospace but more specifically research satellites such as small-sats. In my free time, I enjoy playing pool, soccer, and thrifting.
 - Liam - I'm an Olin student studying engineering with robotics, with a specific interest in math and computation. I'm passionate about music, fire arts and teaching. I really hope you like the game!
-- Arjun - Hey, I'm a Babson Student currently cross registered at Olin College. I'm studying real estate and finance with a passion for innovation. In my free time, I like to play soccer, make art, and explore Boston. Hope you enjoyed the game!
+- Arjun - Hey, I'm a Babson Student currently cross registered at Olin College. I'm studying real estate and finance. In my free time, I like to play soccer, make art, and explore Boston. Hope you enjoyed the game!
 
 
 ---
