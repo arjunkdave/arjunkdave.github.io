@@ -71,11 +71,11 @@ Instructions are also available on the game's start screen.
 - Players simultaneously issue orders each round, and results resolve together.
 - You can only send Oliners between connected buildings.
 - Buildings spawn new Oliners at the start of each round:
-  - 🏠 Home base always spawns 5 Oliners.
-  - 🏢 Controlled buildings spawn bonus Oliners.
+  - 🏠 Home base always spawns 5 Oliners at the start of the game.
+  - 🏢 Controlled buildings spawn one bonus Oliner.
 - The player with the most Oliners in a building controls it.
-- If both players have equal Oliners, the building becomes or remains neutral.
-- 🎯 Win by controlling the most buildings at the 5-minute mark or capturing all buildings.
+- If both players have equal Oliners, the building belongs to the player last on the offensive.
+- 🎯 Win by controlling the enemy's home-base while retaining control of your own.
 
 ---
 
@@ -99,7 +99,7 @@ Visit the GitHub project here:
 
 ## 👥 About Us
 
-Mateo -
+Mateo - Hi, I'm Mateo! I'm a student at Olin College majoring in mechanical engineering. My professional passions span aerospace but more specifically research satellites such as small-sats. In my free time, I enjoy playing pool, soccer, and thrifting.
 Liam -
 Arjun - Hey, I'm a Babson Student currently cross registered at Olin College. I'm studying real estate and finance with a passion for innovation. In my free time, I like to play soccer, make art, and explore Boston. Hope you enjoyed the game!
 
