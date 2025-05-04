@@ -1,4 +1,4 @@
-# 🎮 Capture Olin - Turn-Based Game
+# Capture Olin - Turn-Based Game
 
 This is a pygame implementation of a two-player turn-based strategy game using the Model-View-Controller (MVC) framework. The game is designed to be played on a single computer, with each player taking simultaneous turns to strategically move their units and control buildings across the Olin College campus map.
 
