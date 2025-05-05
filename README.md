@@ -1,4 +1,4 @@
-# 🎮 Capture Olin - Turn-Based Game
+# Capture Olin - Turn-Based Game
 
 This is a pygame implementation of a two-player turn-based strategy game using the Model-View-Controller (MVC) framework. The game is designed to be played on a single computer, with each player taking simultaneous turns to strategically move their units and control buildings across the Olin College campus map.
 
@@ -14,7 +14,6 @@ The goal of **Capture Olin** was to create a two-player strategy game that is we
 
 - 🧠 **Simultaneous Turn-Based Gameplay**: Both players submit their moves, without knowing their opponent's move and then they are executed at the same time, requiring predictive strategy.
 - 🎮 **Custom Input Controller**: Combines mouse/trackpad and keyboard input for intuitive gameplay.
-- 🏛️ **Campus-Themed Map**: Nodes represent buildings on Olin’s campus, with connections based on real geography.
 - 🔁 **Model-View-Controller Architecture**: A clean separation of concerns for better scalability and testing.
 
 ---
@@ -45,6 +44,15 @@ pip install pygame
 ## 🚀 Running the Game
 
 To run the game:
+
+Navigate to repository here: https://github.com/olincollege/Turn-Based
+
+Clone the repository link into your terminal by doing this: 
+
+```bash
+git clone https://github.com/olincollege/Turn-Based
+```
+Then run the game:
 
 ```bash
 python3 Game.py
