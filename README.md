@@ -25,6 +25,7 @@ The goal of **Capture Olin** was to create a two-player strategy game that is we
 
 > 🎥 Watch a short presentation overview:  
 [Capture Olin - Overview](https://drive.google.com/file/d/1R-S2UoIHd5lz2UCymDacJI3zKkaRxVMU/view?usp=sharing)
+
 ---
 
 ## ⚙️ Getting Started
